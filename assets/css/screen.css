@@ -123,9 +123,7 @@ nav a:hover{
 	position:absolute;
 	display:block;
 	z-index:9;
-	width:600px;
-	left:50%;
-	margin-left:-300px;
+	width:100%;
 	top:22%;
 	text-align: center;
 	text-shadow:0 1px 5px rgba(0,0,0,.2);
@@ -153,14 +151,13 @@ header h2{
 }
 
 #post-header #title{
-	top:25%;
-	width:800px;
-	margin-left:-400px;
+	top:14%;
+	width:100%;
 }
 
 /*Content*/
 .container{
-	width:800px;
+	width:50%;
 	margin:0 auto;
 }
 
@@ -418,4 +415,30 @@ footer{
 	letter-spacing:1px;
 	color:#999;
 	font-family: 'Lato', sans-serif !important;
+}
+
+
+@media only screen and (max-width: 1280px){
+	#content{	
+		width:70%;
+	}
+}
+
+@media only screen and (max-width:768px){
+	
+	#site-head > nav, #post-header > nav {
+		margin-top:80%
+	}
+
+	#site-head > nav > a , #post-header > nav > a{
+		display:block;
+	}
+
+	#social-links , #rights {
+		float:none;
+		margin:0;
+		text-align:center;
+		margin-bottom:30px;
+		font-weight: bold;
+	}
 }
