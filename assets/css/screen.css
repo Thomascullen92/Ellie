@@ -426,8 +426,12 @@ footer{
 
 @media only screen and (max-width:768px){
 	
+	header{
+		background-size: auto 100%;
+	}
+
 	#site-head > nav, #post-header > nav {
-		margin-top:80%
+		margin-top:60%
 	}
 
 	#site-head > nav > a , #post-header > nav > a{
