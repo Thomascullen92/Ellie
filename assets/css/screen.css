@@ -419,3 +419,62 @@ footer{
 	color:#999;
 	font-family: 'Lato', sans-serif !important;
 }
+
+@media only screen and (max-width: 1280px){
+	#content{	
+		width:70%;
+	}
+}
+
+@media only screen and (max-width:768px){
+	
+	header{
+		background-size: auto 100%;
+	}
+
+	nav{
+		display: none;
+	}
+
+	#site-head > nav, #post-header > nav {
+		margin-top:60%
+	}
+
+	#site-head > nav > a , #post-header > nav > a{
+		display:block;
+	}
+
+	#social-links > a:last-child{
+		margin: 0;
+		padding: 0;
+	}
+
+	.post > h1 > a{
+		width: 100%;
+		text-align: center;
+		display: block;
+	}
+
+	.meta{
+		text-align: center;
+	}
+	.meta > a:first-child{
+		display: block;
+	}
+
+	.pagination{
+		display: block;
+		text-align: center;
+		margin-right: 0;
+	}
+
+	#social-links , #rights {
+		float:none;
+		margin:0;
+		text-align:center;
+		margin-bottom:30px;
+		font-weight: bold;
+		width: 100%;
+		display: block;
+	}
+}
